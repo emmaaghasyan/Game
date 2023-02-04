@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: palegreen;
+}
+
+.app{
+    background: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    position: absolute;
+    z-index: 1;
+}
+
+.game{
+    width: 300px;
+    height: 300px;
+    border: .1rem solid;
+    background: gray;
+    position: relative;
+}
+
+.hide{
+    display: none!important;
+}
